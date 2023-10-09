@@ -15,3 +15,5 @@ temp/
 testrun/*
 .~lock*
 *.pkl
+orders.csv
+preview.png
