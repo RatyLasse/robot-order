@@ -19,7 +19,7 @@ def order_robots_from_RobotSpareBin():
     Creates ZIP archive of the receipts and images.
     """
     orders = get_orders()
-    order_url = open_input_order_website()
+    order_url = input_order_website()
     for order in orders:
         open_robot_order_website(order_url)
         close_annoying_modal()
@@ -34,7 +34,7 @@ def order_robots_from_RobotSpareBin():
     remove_temp_files()
 
 
-def open_input_order_website():
+def input_order_website():
     assistant = Assistant()
     assistant.add_heading("Please input robot order website URL")
     assistant.add_text_input("text_input", placeholder="Please enter URL", default="https://robotsparebinindustries.com/#/robot-order")
