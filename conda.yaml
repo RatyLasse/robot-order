@@ -13,3 +13,4 @@ dependencies:
     - rpaframework==27.3.0        # https://rpaframework.org/releasenotes.html
     - robocorp==1.0.0             # https://pypi.org/project/robocorp
     - robocorp-browser==2.1.0     # https://pypi.org/project/robocorp-browser
+    - rpaframework-assistant==3.0.0
